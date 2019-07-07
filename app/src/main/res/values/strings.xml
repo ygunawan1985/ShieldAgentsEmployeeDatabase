@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShieldAgentsEmployeeDatabase</string>
+    <string name="add_a_new_department">Add a New Department</string>
+    <string name="add_department">Add Department</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="s_h_i_e_l_d_departments">S.H.I.E.L.D Departments</string>
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="view_all_s_h_i_e_l_d_agents">View All S.H.I.E.L.D. Agents</string>
+    <string name="add_new_agent">Add New Agent</string>
+    <string name="go_to_filter_employee_activity">Go to Filter Employee Activity</string>
+    <string name="s_h_i_e_l_d_agents">S.H.I.E.L.D. Agents</string>
+</resources>

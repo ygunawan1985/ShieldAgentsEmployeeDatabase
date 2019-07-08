@@ -32,6 +32,9 @@ public class FilterEmployeeActivity extends AppCompatActivity {
                 Intent viewEmployeeListIntent = new Intent(this, EmployeeListActivity.class);
                 startActivity(viewEmployeeListIntent);
                 break;
+//            case R.id.btnMainTwo:
+//                startActivity(new Intent(this, Main2Activity.class));
+//                break;
         }
 
     }

@@ -31,6 +31,9 @@ public interface EmployeeDao {
     @Query("SELECT * from employee_table")
     List<Employee> getEmployees();
 
+    @Query("SELECT * from employee_table WHERE department = :deptName")
+    List<Employee> getEmployeesByDepartment(String deptName);
+
     @Query("DELETE from employee_table")
     void deleteEmployees();
 }

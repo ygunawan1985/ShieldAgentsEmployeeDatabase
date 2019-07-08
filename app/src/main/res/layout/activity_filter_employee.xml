@@ -6,35 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".FilterEmployeeActivity">
 
+
+
+    <TextView
+        android:id="@+id/tvFilterTitle"
+        android:text="Filter by Department:"
+        style="@style/StandardTextStyle"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/spinnerDepartments"/>
+
+    <Spinner
+        android:id="@+id/spinnerDepartments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvFilterTitle"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:text="@string/filter_employees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvFilterTitle"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="onClick"/>
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/btnFilter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <Button
         android:id="@+id/btnAddNewEmployee"
         android:text="@string/add_new_employee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewLine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:onClick="onClick"/>
-
-    <!--<Button-->
-        <!--android:id="@+id/btnDeleteEmployee"-->
-        <!--android:text="@string/delete_employee"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--app:layout_constraintTop_toBottomOf="@id/btnAddNewEmployee"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--android:onClick="onClick"/>-->
-
-    <!--<Button-->
-        <!--android:id="@+id/btnUpdateEmployee"-->
-        <!--android:text="@string/update_employee"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--app:layout_constraintTop_toBottomOf="@id/btnDeleteEmployee"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--android:onClick="onClick"/>-->
 
     <Button
         android:id="@+id/btnViewEmployees"
@@ -46,14 +66,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:onClick="onClick"/>
 
-    <!--<Button-->
-        <!--android:id="@+id/btnMainTwo"-->
-        <!--android:text="Go to Navigational Drawer"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--app:layout_constraintTop_toBottomOf="@id/btnViewEmployees"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--android:onClick="onClick"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

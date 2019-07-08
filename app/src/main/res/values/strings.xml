@@ -28,4 +28,10 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_employee_list">EmployeeListActivity</string>
+    <string name="filter_activity">Filter Activity</string>
+    <string name="s_h_i_e_l_d">S.H.I.E.L.D.</string>
+    <string name="shield_marvelstudio_com">shield@marvelstudio.com</string>
+    <string name="submit">Submit</string>
+    <string name="filter_employees">Filter Employees</string>
 </resources>

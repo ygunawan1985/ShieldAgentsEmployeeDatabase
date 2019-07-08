@@ -11,4 +11,6 @@
     <string name="add_new_agent">Add New Agent</string>
     <string name="go_to_filter_employee_activity">Go to Filter Employee Activity</string>
     <string name="s_h_i_e_l_d_agents">S.H.I.E.L.D. Agents</string>
+    <string name="update_agent">Update Agent</string>
+    <string name="cancel">Cancel</string>
 </resources>

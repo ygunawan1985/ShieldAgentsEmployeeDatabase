@@ -16,32 +16,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:onClick="onClick"/>
 
-    <Button
-        android:id="@+id/btnDeleteEmployee"
-        android:text="@string/delete_employee"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btnAddNewEmployee"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="onClick"/>
+    <!--<Button-->
+        <!--android:id="@+id/btnDeleteEmployee"-->
+        <!--android:text="@string/delete_employee"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/btnAddNewEmployee"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--android:onClick="onClick"/>-->
 
-    <Button
-        android:id="@+id/btnUpdateEmployee"
-        android:text="@string/update_employee"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btnDeleteEmployee"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="onClick"/>
+    <!--<Button-->
+        <!--android:id="@+id/btnUpdateEmployee"-->
+        <!--android:text="@string/update_employee"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/btnDeleteEmployee"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--android:onClick="onClick"/>-->
 
     <Button
         android:id="@+id/btnViewEmployees"
         android:text="@string/view_all_s_h_i_e_l_d_agents"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btnUpdateEmployee"
+        app:layout_constraintTop_toBottomOf="@id/btnAddNewEmployee"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:onClick="onClick"/>

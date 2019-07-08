@@ -20,8 +20,10 @@ public interface EmployeeDao {
     @Delete
     void deleteEmployee(Employee employee);
 
-    @Update
-    void update(Employee employee);
+    @Query("UPDATE employee_table SET first_name = :firstName, last_name = :lastName, street_address = :streetAddress, " +
+            "city = :city, state = :state, zip = :zip, tax_id = :taxId, position = :position, department = :department WHERE tax_id = :taxId")
+    void updateEmployee(String firstName, String lastName, String streetAddress, String city, String state,
+                        String zip, String taxId, String position, String department);
 
     @Query("SELECT * FROM employee_table where id = :id")
     Employee getById(int id);

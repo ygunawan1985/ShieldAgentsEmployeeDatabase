@@ -117,7 +117,7 @@ public class NewEmployeeActivity extends AppCompatActivity {
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
                 finish();
-                startActivity(new Intent(getApplicationContext(), FilterEmployeeActivity.class));
+                startActivity(new Intent(getApplicationContext(), EmployeeListActivity.class));
                 Toast.makeText(getApplicationContext(), "New Agent Saved", Toast.LENGTH_SHORT).show();
             }
         }

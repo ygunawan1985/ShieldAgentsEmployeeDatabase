@@ -58,10 +58,25 @@ Coding
 
 Instructions:
 
-Run the Android project
+- Run the Android project
 - Create a new Virtual Device if not already. Then, choose Pixel 2 XL, then click OK.
-- The application makes an API call from Flickr and display it as a list onto a recycle view.
-- Click on the images to see the option to view it bigger or smaller.
+- User can add a department or view departments.
+- User then can go to the filter employee activity.
+- User can filter employees by department, add new employee, or view all employees
+- There is also a navigational window in the view employees activity.
 
-![](screenshots/flickrcall1.png)
-![](screenshots/flickrcall2.png)
+
+![](screenshots/ShieldSplash.png)
+![](screenshots/ShieldHomepage.png)
+![](screenshots/filteractivity.png)
+![](screenshots/AddAgent.png)
+![](screenshots/AgentsList.png)
+![](screenshots/navigationdrawer.png)
+![](screenshots/details.png)
+![](screenshots/filterbyavengers.png)
+![](screenshots/filterbycombat.png)
+![](screenshots/filterbymanagement.png)
+![](screenshots/SteveRogersUpdate.png)
+![](screenshots/deletedtoast.png)
+
+
